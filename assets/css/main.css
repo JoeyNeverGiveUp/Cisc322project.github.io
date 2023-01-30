@@ -1754,7 +1754,7 @@ input, select, textarea {
 			transition: 0.5s;
 		}
 		
-		.card:hover h1 {
+		.card:hover h8 {
 			position: absolute;
 			top: 170px;
 		}
@@ -1768,10 +1768,14 @@ input, select, textarea {
 			padding-bottom: 20px;
 			border-bottom: 1px solid var(--h2_border_color);
 		}
-		
-		
-		a:hover {
-			color: #Fff;
-			background-color: var(--a_hover_background_color);
+		p {
+			width: 90%;
+			/* 段落缩进2个字符大小 */
+			text-indent: 2em;
+			font-size: 16px;
+			margin-bottom: 10px;
+			line-height: 30px;
 		}
+		
+		
 		
