@@ -1761,7 +1761,7 @@ input, select, textarea {
 			box-shadow: 0 0 20px #111;
 		}
 		
-		h1 {
+		h8 {
 			position: absolute;
 			top: 380px;
 			transition: 0.5s;
@@ -1772,7 +1772,7 @@ input, select, textarea {
 			top: 170px;
 		}
 		
-		h2 {
+		h9 {
 			margin-top: 220px;
 			width: 80%;
 			font-weight: normal;
