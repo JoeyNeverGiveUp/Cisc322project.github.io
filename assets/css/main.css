@@ -1684,7 +1684,11 @@ input, select, textarea {
 			padding: 0;
 		}
 		
-		
+		body {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
 		.card {
 			/* flex布局下元素不按比例缩放 */
 			flex-shrink: 0;
