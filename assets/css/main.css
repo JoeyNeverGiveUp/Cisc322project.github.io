@@ -1133,7 +1133,7 @@ input, select, textarea {
 			-webkit-transition-delay: 0.75s;
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
-			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("images/ikun.gif");
+			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/ikun.gif");
 			background-size: auto,
  256px 256px;
 			background-position: center,
@@ -1152,7 +1152,7 @@ input, select, textarea {
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-			background-image: url("images/ikun.gif");
+			background-image: url("../../images/ikun.gif");
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
@@ -1547,11 +1547,11 @@ input, select, textarea {
 		
 
 			#main article.active {
-				
 				-moz-transform: translateY(0);
 				-webkit-transform: translateY(0);
 				-ms-transform: translateY(0);
 				transform: translateY(0);
+				opacity: 1;
 			}
 
 			#main article .close {
