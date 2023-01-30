@@ -1679,7 +1679,9 @@ input, select, textarea {
 		}
 		
 		body {
-			display: flex;
+			 display: flex;
+                         justify-content: center;
+                         align-items: center;
 		}
 		.card {
 			/* flex布局下元素不按比例缩放 */
