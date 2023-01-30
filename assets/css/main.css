@@ -1684,9 +1684,6 @@ input, select, textarea {
 			padding: 0;
 		}
 		
-		html {
-			font-size: 14px;
-		}
 		
 		.card {
 			/* flex布局下元素不按比例缩放 */
