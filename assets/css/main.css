@@ -1509,7 +1509,12 @@ input, select, textarea {
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
+
 		display: flex;
+		flex-direction: row;
+		align-items:center;
+		flex-wrap:wrap;
+		
 		-moz-align-items: center;
 		-webkit-align-items: center;
 		-ms-align-items: center;
@@ -1615,12 +1620,6 @@ input, select, textarea {
 				padding: 3rem 1.5rem 0.5rem 1.5rem ;
 			}
 
-		}
-		.container {
-			display:flex;
-			flex-direction: row;
-			align-items:center;
-			flex-wrap:wrap;
 		}
 
 /* Footer */
