@@ -1528,6 +1528,10 @@ input, select, textarea {
 	}
 
 		#main article {
+			display:flex;
+			justify-content: flex-start;
+			flex-direction: row;
+			align-items:center;
 			-moz-transform: translateY(0.25rem);
 			-webkit-transform: translateY(0.25rem);
 			-ms-transform: translateY(0.25rem);
