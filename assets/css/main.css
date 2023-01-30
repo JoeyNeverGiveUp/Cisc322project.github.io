@@ -1544,13 +1544,13 @@ input, select, textarea {
 			border-radius: 4px;
 			opacity: 0;
 		}
+		article1{
+			display: flex;
+			flex-direction: row;
+			align-items:center;
+		}
 
 			#main article.active {
-				
-		        display: flex;
-		        flex-direction: row;
-		        align-items:center;
-		        flex-wrap:wrap;
 				
 				-moz-transform: translateY(0);
 				-webkit-transform: translateY(0);
