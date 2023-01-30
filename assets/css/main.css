@@ -1697,7 +1697,7 @@ input, select, textarea {
 			width: 230px;
 			height: 320px;
 			overflow: hidden;
-			margin: 20px;
+			margin: 5px;
 			background-color: var(--border-color);
 			border-radius: 20px;
 			display: flex;
