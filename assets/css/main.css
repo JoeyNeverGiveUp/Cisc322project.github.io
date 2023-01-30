@@ -1528,10 +1528,6 @@ input, select, textarea {
 	}
 
 		#main article {
-			display:flex;
-			justify-content: flex-start;
-			flex-direction: row;
-			align-items:center;
 			-moz-transform: translateY(0.25rem);
 			-webkit-transform: translateY(0.25rem);
 			-ms-transform: translateY(0.25rem);
@@ -1595,6 +1591,11 @@ input, select, textarea {
 
 				#main article .close:active:before {
 					background-color: rgba(255, 255, 255, 0.175);
+				}
+				article1 {
+					display:flex;
+					flex-direction: row;
+					align-items:center;
 				}
 
 		@media screen and (max-width: 736px) {
