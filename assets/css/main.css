@@ -1674,14 +1674,12 @@ input, select, textarea {
 		}
 		
 		* {
-			margin: 0;
-			padding: 0;
+			margin: 1;
+			padding: 1;
 		}
 		
 		body {
 			display: flex;
-			justify-content: center;
-			align-items: center;
 		}
 		.card {
 			/* flex布局下元素不按比例缩放 */
