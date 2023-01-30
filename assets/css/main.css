@@ -1542,8 +1542,8 @@ input, select, textarea {
 			-webkit-transition: opacity 0.325s ease-in-out, -webkit-transform 0.325s ease-in-out;
 			-ms-transition: opacity 0.325s ease-in-out, -ms-transform 0.325s ease-in-out;
 			transition: opacity 0.325s ease-in-out, transform 0.325s ease-in-out;
-			padding: 2.5rem ;
-			position: fixed;
+			padding: 2rem ;
+			position: relative;
 			width: 40rem;
 			max-width: 100%;
 			background-color: rgba(27, 31, 34, 0.85);
