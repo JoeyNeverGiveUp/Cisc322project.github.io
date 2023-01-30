@@ -1534,10 +1534,10 @@ input, select, textarea {
 	}
 
 		#main article {
-			-moz-transform: translateY(1rem);
-			-webkit-transform: translateY(1rem);
-			-ms-transform: translateY(1rem);
-			transform: translateY(1rem);
+			-moz-transform: translateY(0.25rem);
+			-webkit-transform: translateY(0.25rem);
+			-ms-transform: translateY(0.25rem);
+			transform: translateY(0.25rem);
 			-moz-transition: opacity 0.325s ease-in-out, -moz-transform 0.325s ease-in-out;
 			-webkit-transition: opacity 0.325s ease-in-out, -webkit-transform 0.325s ease-in-out;
 			-ms-transition: opacity 0.325s ease-in-out, -ms-transform 0.325s ease-in-out;
@@ -1688,16 +1688,6 @@ input, select, textarea {
 			font-size: 14px;
 		}
 		
-		body {
-			width: 100vw;
-			height: 100vh;
-			background-color: var(--background-color);
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			font-family: 'Montserrat', sans-serif, Arial, 'Microsoft Yahei';
-		}
-		
 		.card {
 			/* flex布局下元素不按比例缩放 */
 			flex-shrink: 0;
@@ -1782,22 +1772,6 @@ input, select, textarea {
 			border-bottom: 1px solid var(--h2_border_color);
 		}
 		
-		p {
-			width: 90%;
-			/* 段落缩进2个字符大小 */
-			text-indent: 2em;
-			font-size: 16px;
-			margin-bottom: 10px;
-			line-height: 30px;
-		}
-		
-		a {
-			color: var(--font_color);
-			text-decoration: none;
-			padding: 12px 36px;
-			border: 1px solid var(--a_border_color);
-			border-radius: 8px;
-		}
 		
 		a:hover {
 			color: #Fff;
