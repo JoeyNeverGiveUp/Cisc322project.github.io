@@ -1618,7 +1618,7 @@ input, select, textarea {
 
 		}
 
-		#about .card{
+		#about div{
 			display: flex;
 			flex-direction: row;
 			flex-wrap: wrap;
