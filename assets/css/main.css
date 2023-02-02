@@ -1618,10 +1618,10 @@ input, select, textarea {
 
 		}
 
-		#about{
+		#about .card{
 			display: flex;
 			flex-direction: row;
-			/*flex-wrap: wrap;*/
+			flex-wrap: wrap;
 			justify-content: flex-start;
 			
 		}
