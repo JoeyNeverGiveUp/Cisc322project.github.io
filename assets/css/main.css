@@ -1621,8 +1621,8 @@ input, select, textarea {
 		#about{
 			display: flex;
 			flex-direction: row;
-			/*flex-wrap: wrap;*/
-			align-items:center
+			flex-wrap: wrap;
+			justify-content: center;
 			
 		}
 
