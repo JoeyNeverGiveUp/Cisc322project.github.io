@@ -1618,7 +1618,7 @@ input, select, textarea {
 
 		}
 
-		article1{
+		#about{
 			display: flex;
 			flex-direction: row;
 			flex-wrap: wrap;
