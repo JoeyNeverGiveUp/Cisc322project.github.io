@@ -1618,13 +1618,13 @@ input, select, textarea {
 
 		}
 
-		#about div{
+		/*#about{
 			display: flex;
 			flex-direction: row;
 			flex-wrap: wrap;
 			justify-content: flex-start;
 			
-		}
+		}/*
 
 /* Footer */
 
@@ -1707,7 +1707,8 @@ input, select, textarea {
 			justify-content: flex-start;
 			align-items: center;
 			/* flex 子元素 纵向排列 */
-			flex-direction: column;
+			flex-direction: row;
+			flex-wrap: wrap;
 			/* 增加个阴影 */
 			box-shadow: 0 0 30px #2c2c2c;
 			/* 同意给字体价格颜色 */
