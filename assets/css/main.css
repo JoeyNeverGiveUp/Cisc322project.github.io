@@ -1552,7 +1552,7 @@ input, select, textarea {
 				-webkit-transform: translateY(0);
 				-ms-transform: translateY(0);
 				transform: translateY(0);
-				opacity: 1;
+				opacity: 0;
 			}
 
 			#main article .close {
