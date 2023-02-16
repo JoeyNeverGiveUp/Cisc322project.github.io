@@ -166,6 +166,7 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2rem 0;
+		font-family: "Andale Mono", monospace;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -1195,7 +1196,7 @@ input, select, textarea {
 		justify-content: space-between;
 		position: relative;
 		min-height: 100vh;
-		width: 100%;
+		width: 100%; 
 		padding: 3rem 1rem;
 		z-index: 3;
 	}
