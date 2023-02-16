@@ -648,7 +648,7 @@ input, select, textarea {
 			display: block;
 			height: 100%;
 			left: 0;
-			opacity: 0.5;
+			opacity: 1;
 			position: absolute;
 			top: 0;
 			width: 100%;
@@ -1543,7 +1543,7 @@ input, select, textarea {
 			max-width: 100%;
 			background-color: rgba(27, 31, 34, 0.85);
 			border-radius: 4px;
-			opacity: 1;
+			opacity: 0;
 		}
 		
 
