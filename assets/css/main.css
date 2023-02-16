@@ -135,7 +135,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #ffffff;
-		font-family: "Source Sans Pro", sans-serif;
+		font-family: "IBM Plex Mono", monospace;
 		font-weight: 300;
 		font-size: 1rem;
 		line-height: 1.65;
@@ -1543,7 +1543,7 @@ input, select, textarea {
 			max-width: 100%;
 			background-color: rgba(27, 31, 34, 0.85);
 			border-radius: 4px;
-			opacity: 0;
+			opacity: 1;
 		}
 		
 
