@@ -1,6 +1,6 @@
+
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
-
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -135,7 +135,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #ffffff;
-		font-family: "IBM Plex Mono", monospace;
+		font: "IBM Plex Mono", monospace;
 		font-weight: 300;
 		font-size: 1rem;
 		line-height: 1.65;
@@ -153,6 +153,10 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
+			background-color: #f1de72;
+			-webkit-box-shadow: 10px 10px 99px 6px #f1de72;
+			-moz-box-shadow: 10px 10px 99px 6px #f1de72;
+			box-shadow: 10px 10px 99px 6px #f1de72;
 		}
 
 	strong, b {
@@ -170,7 +174,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #ffffff;
+		color: white;
 		font-weight: 600;
 		line-height: 1.5;
 		margin: 0 0 1rem 0;
@@ -197,6 +201,7 @@ input, select, textarea {
 		font-size: 2.25rem;
 		line-height: 1.3;
 		letter-spacing: 0.5rem;
+
 	}
 
 	h2 {
@@ -641,7 +646,7 @@ input, select, textarea {
 
 		.image:before {
 			pointer-events: none;
-			background-image: url("../../images/jj.jpg");
+			background-image: url("../../images/hua.gif");
 			background-color: rgba(19, 21, 25, 0.5);
 			border-radius: 4px;
 			content: '';
@@ -1134,7 +1139,7 @@ input, select, textarea {
 			-webkit-transition-delay: 0.75s;
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
-			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/ikun.gif");
+			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/666.gif");
 			background-size: auto,
  256px 256px;
 			background-position: center,
@@ -1153,7 +1158,7 @@ input, select, textarea {
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-			background-image: url("../../images/ikun.gif");
+			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)),url("../../images/666.gif");
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
@@ -1172,7 +1177,8 @@ input, select, textarea {
 		}
 
 		body.is-preload #bg:before {
-			background-color: #000000;
+			background-color: black;
+			background-image: url("../../images/hua.gif");
 		}
 
 /* Wrapper */
@@ -1694,7 +1700,7 @@ input, select, textarea {
                          align-items: center;
 		}
 		.card {
-			/* flex布局下元素不按比例缩放 */
+			/* flex甯冨眬涓嬪厓绱犱笉鎸夋瘮渚嬬缉鏀?*/
 			flex-shrink: 0;
 			flex-grow: 0;
 			position: relative;
@@ -1707,17 +1713,17 @@ input, select, textarea {
 			display: flex;
 			justify-content: flex-start;
 			align-items: center;
-			/* flex 子元素 纵向排列 */
+			/* flex 瀛愬厓绱?绾靛悜鎺掑垪 */
 			flex-direction: column;
-			/* 增加个阴影 */
+			/* 澧炲姞涓槾褰?*/
 			box-shadow: 0 0 30px #2c2c2c;
-			/* 同意给字体价格颜色 */
+			/* 鍚屾剰缁欏瓧浣撲环鏍奸鑹?*/
 			color: var(--font_color)
 		}
 		
 		.photo {
 			position: absolute;
-			/* 默认为放大 */
+			/* 榛樿涓烘斁澶?*/
 			width: 100%;
 			height: 100%;
 			top: 0px;
@@ -1727,7 +1733,7 @@ input, select, textarea {
 		}
 		
 		.photo::before {
-			/* 通过before增加渐变背景实现遮罩，让文字默认看起来清晰一些 */
+			/* 閫氳繃before澧炲姞娓愬彉鑳屾櫙瀹炵幇閬僵锛岃鏂囧瓧榛樿鐪嬭捣鏉ユ竻鏅颁竴浜?*/
 			position: absolute;
 			content: '';
 			width: 100%;
@@ -1735,20 +1741,20 @@ input, select, textarea {
 			background-image: linear-gradient(to top, #333, transparent);
 		}
 		.card:hover .photo::before{
-			/* 缩小时隐藏 */
+			/* 缂╁皬鏃堕殣钘?*/
 			display: none;
 		}
 		
 		.photo img {
-			/* 图片高宽均为100% */
-			/* 然后按照cover缩放，裁切长边 */
+			/* 鍥剧墖楂樺鍧囦负100% */
+			/* 鐒跺悗鎸夌収cover缂╂斁锛岃鍒囬暱杈?*/
 			width: 100%;
 			height: 100%;
 			object-fit: cover;
 		}
 		
 		.card:hover .photo {
-			/* 鼠标移上变小 */
+			/* 榧犳爣绉讳笂鍙樺皬 */
 			width: 120px;
 			height: 120px;
 			top: 30px;
@@ -1775,15 +1781,71 @@ input, select, textarea {
 			margin-bottom: 20px;
 			padding-bottom: 20px;
 			border-bottom: 1px solid var(--h2_border_color);
+			font-size: 13pt;
+			color: #f0d044;
 		}
-		p {
-			width: 90%;
-			/* 段落缩进2个字符大小 */
-			text-indent: 2em;
-			font-size: 16px;
-			margin-bottom: 10px;
-			line-height: 30px;
-		}
+		
+
+
+
+
+
+		#neon-btn {
+			display: flex;
+			align-items: center;
+			justify-content: space-around;
+			height: 10vh;
+		  }
+		  
+		  .btn {
+			border: 1px;
+			background-color:transparent;
+			text-transform: uppercase;
+			font-size: 10px;
+			padding: 2px 40px;
+			font-weight: 100;
+		  }
+		                                                 
+		  .one {
+			color: #4cc9f0;
+		  }
+		  
+		  .two {
+			color: #f038ff; 
+		  }
+		  
+		  .three {
+			color: #b9e769;
+		  }
+		  
+		  .btn:hover {
+			color: white;
+			border: 0;
+		  }              
+		  
+		  .one:hover {
+			background-color: #4cc9f0;
+			-webkit-box-shadow: 10px 10px 99px 6px rgba(76,201,240,1);
+			-moz-box-shadow: 10px 10px 99px 6px rgba(76,201,240,1);
+			box-shadow: 10px 10px 99px 6px rgba(76,201,240,1);
+		  }
+		  
+		  .two:hover {
+			background-color: #f038ff;
+			-webkit-box-shadow: 10px 10px 99px 6px rgba(240, 56, 255, 1);
+			-moz-box-shadow: 10px 10px 99px 6px rgba(240, 56, 255, 1);
+			box-shadow: 10px 10px 99px 6px rgba(240, 56, 255, 1);
+		  }
+		  
+		  .three:hover {
+			background-color: #b9e769;
+			-webkit-box-shadow: 10px 10px 99px 6px rgba(185, 231, 105, 1);
+			-moz-box-shadow: 10px 10px 99px 6px rgba(185, 231, 105, 1);
+			box-shadow: 10px 10px 99px 6px rgba(185, 231, 105, 1);
+		  }
+		  
+		  
+		  
 		
 		
 		
